@@ -13,6 +13,7 @@
 		80657745226BD1FE00411C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80657744226BD1FE00411C69 /* Assets.xcassets */; };
 		80657748226BD1FF00411C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80657746226BD1FF00411C69 /* LaunchScreen.storyboard */; };
 		80657753226BD1FF00411C69 /* HelloWorldIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80657752226BD1FF00411C69 /* HelloWorldIOSTests.swift */; };
+		8065775E226CEFEA00411C69 /* IamRichViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065775D226CEFEA00411C69 /* IamRichViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		8065774E226BD1FF00411C69 /* HelloWorldIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80657752226BD1FF00411C69 /* HelloWorldIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldIOSTests.swift; sourceTree = "<group>"; };
 		80657754226BD1FF00411C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8065775D226CEFEA00411C69 /* IamRichViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IamRichViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				80657744226BD1FE00411C69 /* Assets.xcassets */,
 				80657746226BD1FF00411C69 /* LaunchScreen.storyboard */,
 				80657749226BD1FF00411C69 /* Info.plist */,
+				8065775D226CEFEA00411C69 /* IamRichViewController.swift */,
 			);
 			path = HelloWorldIOS;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8065775E226CEFEA00411C69 /* IamRichViewController.swift in Sources */,
 				80657740226BD1FD00411C69 /* ViewController.swift in Sources */,
 				8065773E226BD1FC00411C69 /* AppDelegate.swift in Sources */,
 			);
