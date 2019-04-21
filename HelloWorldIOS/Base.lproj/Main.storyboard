@@ -34,9 +34,8 @@
                         <viewLayoutGuide key="safeArea" id="Usa-Bm-akp"/>
                     </view>
                     <connections>
-                        <outlet property="backgroundView" destination="r75-0r-HRl" id="Khd-9o-UZc"/>
+                        <outlet property="backgroundView" destination="r75-0r-HRl" id="SVb-0k-7Se"/>
                         <outlet property="richTextField" destination="bwZ-bM-lYY" id="sBW-vW-gqR"/>
-                        <outlet property="viewName" destination="bwZ-bM-lYY" id="Gt6-CB-yD2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wp2-Ns-GW7" userLabel="First Responder" sceneMemberID="firstResponder"/>
