@@ -10,10 +10,10 @@ import UIKit
 
 class IamRichViewController: UIViewController{
     
-    @IBOutlet weak var richTextField: UIView!
+    @IBOutlet weak var richTextField: UILabel!
     @IBOutlet weak var backgroundView: UIView!
     
-    var isPurple = false
+    var isPurple = true
 
     override func viewDidLoad() {
         super.viewDidLoad()

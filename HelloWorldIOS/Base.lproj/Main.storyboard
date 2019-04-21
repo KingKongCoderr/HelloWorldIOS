@@ -34,8 +34,8 @@
                         <viewLayoutGuide key="safeArea" id="Usa-Bm-akp"/>
                     </view>
                     <connections>
-                        <outlet property="backgroundView" destination="r75-0r-HRl" id="046-9R-lj2"/>
-                        <outlet property="richTextField" destination="bwZ-bM-lYY" id="Nva-41-BIq"/>
+                        <outlet property="backgroundView" destination="r75-0r-HRl" id="Khd-9o-UZc"/>
+                        <outlet property="richTextField" destination="bwZ-bM-lYY" id="sBW-vW-gqR"/>
                         <outlet property="viewName" destination="bwZ-bM-lYY" id="Gt6-CB-yD2"/>
                     </connections>
                 </viewController>
