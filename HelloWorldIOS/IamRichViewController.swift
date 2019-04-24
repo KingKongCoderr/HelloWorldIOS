@@ -12,6 +12,7 @@ class IamRichViewController: UIViewController{
     
     @IBOutlet weak var richTextField: UILabel!
     @IBOutlet weak var backgroundView: UIView!
+    @IBOutlet weak var diamondImageView: UIImageView!
     
     var isPurple = true
 
@@ -23,6 +24,11 @@ class IamRichViewController: UIViewController{
         let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.onRichLabelTap(_:)))
         richTextField.isUserInteractionEnabled = true
         richTextField.addGestureRecognizer(gestureRecognizer)
+        
+        let imageGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.onDiamondTap(_:)))
+        diamondImageView.isUserInteractionEnabled = true
+        diamondImageView.addGestureRecognizer(imageGestureRecognizer)
+        
     }
     
     @objc func onRichLabelTap(_ sender: UITapGestureRecognizer) {
@@ -34,4 +40,12 @@ class IamRichViewController: UIViewController{
             isPurple = true
         }
     }
+    
+    @objc func onDiamondTap(_ sender: UITapGestureRecognizer){
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let newViewController = storyBoard.instantiateViewController(withIdentifier: "DiceViewController") as! DiceViewController
+        self.present(newViewController, animated: true, completion: nil)
+    }
+    
+    
 }

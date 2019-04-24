@@ -35,12 +35,28 @@
                     </view>
                     <connections>
                         <outlet property="backgroundView" destination="r75-0r-HRl" id="SVb-0k-7Se"/>
+                        <outlet property="diamondImageView" destination="dco-ZB-Pi5" id="qg6-DJ-FYk"/>
                         <outlet property="richTextField" destination="bwZ-bM-lYY" id="sBW-vW-gqR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wp2-Ns-GW7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="100" y="71"/>
+        </scene>
+        <!--Dice View Controller-->
+        <scene sceneID="YTT-ot-t6W">
+            <objects>
+                <viewController storyboardIdentifier="DiceViewController" id="T8w-Vu-Ufx" customClass="DiceViewController" customModule="HelloWorldIOS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cJA-p9-Kl1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="gMb-kT-LZe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="86f-rn-Sbd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="959" y="71"/>
         </scene>
     </scenes>
     <resources>
