@@ -47,5 +47,15 @@ class IamRichViewController: UIViewController{
         self.present(newViewController, animated: true, completion: nil)
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        let scale = CGAffineTransform(scaleX: 1.5, y: 1.5)
+//        UIView.animate(withDuration: 1) {
+//            self.diamondImageView.transform = scale
+//        }
+        UIView.animate(withDuration: 1.0, delay: 0, usingSpringWithDamping: 0.1, initialSpringVelocity: 0.7, options: [], animations: {
+            self.diamondImageView.transform = scale
+        }, completion: nil)
+    }
     
 }
