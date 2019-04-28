@@ -17,10 +17,11 @@ class DiceViewController: UIViewController{
     
     @IBOutlet weak var dice1ImageView: UIImageView!
     @IBOutlet weak var dice2ImageView: UIImageView!
+    @IBOutlet weak var greetingTextView: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        greetingTextView.isHidden = true
     }
     
     @IBAction func rollDice(_ sender: UIButton) {
@@ -29,6 +30,12 @@ class DiceViewController: UIViewController{
         
         dice1ImageView.image = UIImage(named: imageNameArray[randomDiceIndex1])
         dice2ImageView.image = UIImage(named: imageNameArray[randomDiceIndex2])
+        
+        if randomDiceIndex1 == 5 && randomDiceIndex2 == 5 {
+            greetingTextView.isHidden = false
+        }else{
+            greetingTextView.isHidden = true
+        }
 
     }
     

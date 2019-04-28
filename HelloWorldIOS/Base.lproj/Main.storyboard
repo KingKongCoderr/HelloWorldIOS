@@ -79,6 +79,13 @@
                                 <rect key="frame" x="54" y="406" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" text="Congragulations!!!" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oas-lo-mID">
+                                <rect key="frame" x="121" y="564" width="172" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" textContentType="name"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="gMb-kT-LZe"/>
@@ -86,6 +93,7 @@
                     <connections>
                         <outlet property="dice1ImageView" destination="dGN-36-kXa" id="Pa3-bK-hTX"/>
                         <outlet property="dice2ImageView" destination="hcG-Io-8bk" id="4EK-rO-Fyq"/>
+                        <outlet property="greetingTextView" destination="oas-lo-mID" id="QKl-bY-o3D"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="86f-rn-Sbd" userLabel="First Responder" sceneMemberID="firstResponder"/>
