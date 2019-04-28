@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		8065773E226BD1FC00411C69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065773D226BD1FC00411C69 /* AppDelegate.swift */; };
-		80657740226BD1FD00411C69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065773F226BD1FD00411C69 /* ViewController.swift */; };
 		80657743226BD1FD00411C69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80657741226BD1FD00411C69 /* Main.storyboard */; };
 		80657745226BD1FE00411C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80657744226BD1FE00411C69 /* Assets.xcassets */; };
 		80657748226BD1FF00411C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80657746226BD1FF00411C69 /* LaunchScreen.storyboard */; };
 		80657753226BD1FF00411C69 /* HelloWorldIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80657752226BD1FF00411C69 /* HelloWorldIOSTests.swift */; };
+		8065775E226CEFEA00411C69 /* IamRichViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8065775D226CEFEA00411C69 /* IamRichViewController.swift */; };
+		80ED7FB4227004F600685BE1 /* DiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ED7FB3227004F600685BE1 /* DiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,6 @@
 /* Begin PBXFileReference section */
 		8065773A226BD1FC00411C69 /* HelloWorldIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorldIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8065773D226BD1FC00411C69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8065773F226BD1FD00411C69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		80657742226BD1FD00411C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80657744226BD1FE00411C69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80657747226BD1FF00411C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +36,9 @@
 		8065774E226BD1FF00411C69 /* HelloWorldIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80657752226BD1FF00411C69 /* HelloWorldIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldIOSTests.swift; sourceTree = "<group>"; };
 		80657754226BD1FF00411C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8065775D226CEFEA00411C69 /* IamRichViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IamRichViewController.swift; sourceTree = "<group>"; };
+		80766B6D2276173F00870F06 /* SwiftIntro.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftIntro.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		80ED7FB3227004F600685BE1 /* DiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +80,14 @@
 		8065773C226BD1FC00411C69 /* HelloWorldIOS */ = {
 			isa = PBXGroup;
 			children = (
+				80766B6D2276173F00870F06 /* SwiftIntro.playground */,
 				8065773D226BD1FC00411C69 /* AppDelegate.swift */,
-				8065773F226BD1FD00411C69 /* ViewController.swift */,
 				80657741226BD1FD00411C69 /* Main.storyboard */,
 				80657744226BD1FE00411C69 /* Assets.xcassets */,
 				80657746226BD1FF00411C69 /* LaunchScreen.storyboard */,
 				80657749226BD1FF00411C69 /* Info.plist */,
+				8065775D226CEFEA00411C69 /* IamRichViewController.swift */,
+				80ED7FB3227004F600685BE1 /* DiceViewController.swift */,
 			);
 			path = HelloWorldIOS;
 			sourceTree = "<group>";
@@ -197,7 +202,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80657740226BD1FD00411C69 /* ViewController.swift in Sources */,
+				8065775E226CEFEA00411C69 /* IamRichViewController.swift in Sources */,
+				80ED7FB4227004F600685BE1 /* DiceViewController.swift in Sources */,
 				8065773E226BD1FC00411C69 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
