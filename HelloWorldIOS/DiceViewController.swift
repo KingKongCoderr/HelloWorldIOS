@@ -13,7 +13,7 @@ class DiceViewController: UIViewController{
     var randomDiceIndex1 : Int = 0
     var randomDiceIndex2 : Int = 0
 
-    
+    let imageNameArray = ["dice1","dice2","dice3","dice4","dice5","dice6"]
     
     @IBOutlet weak var dice1ImageView: UIImageView!
     @IBOutlet weak var dice2ImageView: UIImageView!
@@ -26,6 +26,10 @@ class DiceViewController: UIViewController{
     @IBAction func rollDice(_ sender: UIButton) {
         randomDiceIndex1 = Int.random(in: 0 ... 5)
         randomDiceIndex2 = Int.random(in: 0 ... 5)
+        
+        dice1ImageView.image = UIImage(named: imageNameArray[randomDiceIndex1])
+        dice2ImageView.image = UIImage(named: imageNameArray[randomDiceIndex2])
+
     }
     
     
