@@ -72,7 +72,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="rollDice:" destination="T8w-Vu-Ufx" eventType="touchUpInside" id="WOu-w9-Tmm"/>
+                                    <action selector="onRollDiceTapped:" destination="T8w-Vu-Ufx" eventType="touchUpInside" id="WOu-w9-Tmm"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dice1" translatesAutoresizingMaskIntoConstraints="NO" id="dGN-36-kXa">

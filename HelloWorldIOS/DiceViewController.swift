@@ -22,9 +22,14 @@ class DiceViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         greetingTextView.isHidden = true
+        rollDice()
     }
     
-    @IBAction func rollDice(_ sender: UIButton) {
+    @IBAction func onRollDiceTapped(_ sender: UIButton) {
+        rollDice()
+    }
+    
+    func rollDice(){
         randomDiceIndex1 = Int.random(in: 0 ... 5)
         randomDiceIndex2 = Int.random(in: 0 ... 5)
         
@@ -36,7 +41,6 @@ class DiceViewController: UIViewController{
         }else{
             greetingTextView.isHidden = true
         }
-
     }
     
     
