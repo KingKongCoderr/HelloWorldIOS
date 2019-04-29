@@ -40,7 +40,7 @@ class DiceViewController: UIViewController{
         dice1ImageView.image = UIImage(named: imageNameArray[randomDiceIndex1])
         dice2ImageView.image = UIImage(named: imageNameArray[randomDiceIndex2])
         
-        if randomDiceIndex1 == 5 && randomDiceIndex2 == 5 {
+        if (randomDiceIndex1 == 5 && randomDiceIndex2 == 5) {
             greetingTextView.isHidden = false
         }else{
             greetingTextView.isHidden = true
