@@ -56,3 +56,40 @@ func printFibonacciSequence(until fibonacciRange: Int){
 }
 
 printFibonacciSequence(until: 5)
+print("\n")
+
+//Difference between Fucntion vs Methods: https://stackoverflow.com/a/24136184/3805770
+//functions are available globally and not tied to a type where as methods are functions that are tied to a type or instance of an object.
+
+
+//Dictionaries
+var dictionary = ["LAX": "LogAngeles International", "LHR":"Longdon Heathrow Airport"]
+print(dictionary.keys)
+print(dictionary.values)
+print(dictionary.isEmpty)
+
+//user [:] to create empty dictionary
+var emptyDictionary: [String: String] = [:]
+print(emptyDictionary.isEmpty)
+print("\n")
+
+
+//Object oriented programming in swift
+//https://www.raywenderlich.com/599-object-oriented-programming-in-swift
+
+
+//Inheritance in Swift
+
+
+
+//Polymorphism in Swift
+
+
+
+//Optionals in Swift
+
+
+
+
+
+
