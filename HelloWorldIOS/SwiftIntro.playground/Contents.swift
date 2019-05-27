@@ -68,16 +68,55 @@ print(dictionary.keys)
 print(dictionary.values)
 print(dictionary.isEmpty)
 
+print("\n")
+
 //user [:] to create empty dictionary
 var emptyDictionary: [String: String] = [:]
 print(emptyDictionary.isEmpty)
-print("\n")
 
+
+//optionals
+
+// optional = a variable can have a value or be nil
+var jobDescriptionOfPerson: String?
+
+
+//forced unwrapping an optional is telling the compiler that the value won't be nil at the point of usage
+
+//implicitly unwrapping optionals
+//https://krakendev.io/blog/when-to-use-implicitly-unwrapped-optionals
+//https://www.hackingwithswift.com/example-code/language/what-are-implicitly-unwrapped-optionals
+
+//Optional binding
+//the if block gets executed only if the assignment is possible and assignment is possible only if the value is not nil
+if let tmpConstant = variableName{
+    //use your optional assigned to temporary constant here
+    print(tmpConstant)
+}
 
 //Object oriented programming in swift
 //see Instruments_OOPS.playground downloaded from below URL
 //https://www.raywenderlich.com/599-object-oriented-programming-in-swift
 
+//classes and objects
+
+//designated initializer and convenience initializers
+
+class Car{
+    var color = "White"
+    var noOfSeats = 5
+    
+    //designated initializer (default constructor)
+    init(){
+        
+    }
+    
+    convenience init(userChoseColor: String, choseSeats: Int){
+        self.init()
+        color = userChoseColor
+        noOfSeats = choseSeats
+    }
+}
 
 //Inheritance in Swift
 
