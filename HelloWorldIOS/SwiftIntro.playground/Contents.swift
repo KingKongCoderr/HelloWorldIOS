@@ -81,7 +81,8 @@ print(emptyDictionary.isEmpty)
 var jobDescriptionOfPerson: String?
 
 
-//forced unwrapping an optional is telling the compiler that the value won't be nil at the point of usage
+//forced unwrapping an optional is telling the compiler that the value won't be nil at the point of usage which might cause crash at use site if its nil (more like double bangs in kotlin)
+jobDescriptionOfPerson!
 
 //implicitly unwrapping optionals
 //https://krakendev.io/blog/when-to-use-implicitly-unwrapped-optionals
@@ -89,9 +90,19 @@ var jobDescriptionOfPerson: String?
 
 //Optional binding
 //the if block gets executed only if the assignment is possible and assignment is possible only if the value is not nil
-if let tmpConstant = variableName{
+if let tmpConstant = jobDescriptionOfPerson{
     //use your optional assigned to temporary constant here
     print(tmpConstant)
+}
+
+//Guard statements: The variable is scoped in parent's context
+//A guard statement is used to transfer program control out of a scope if one or more conditions aren’t met.
+
+//To sum up their main intention in two words: EARLY EXIT
+
+
+guard let variableName = optionalVariable else {
+   return fromFunction //Early exit
 }
 
 //Object oriented programming in swift
