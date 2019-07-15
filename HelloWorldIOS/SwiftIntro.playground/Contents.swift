@@ -105,9 +105,27 @@ guard let variableName = optionalVariable else {
    return fromFunction //Early exit
 }
 
+//Closure / closures :
+//similar to higher order functions in Koltin and most of the rules apply like
+//rules
+//1. if the last parameter of a function takes in function type then we can use closure
+//2. As there is type inference we don't need to declare them
+//3. first parameter can be grabbed by using $0 , and second parameter with $1 ... and so on
+//4. if there is only one expression in the closure the return statement can be omitted.
+
+
 //Object oriented programming in swift
 //see Instruments_OOPS.playground downloaded from below URL
 //https://www.raywenderlich.com/599-object-oriented-programming-in-swift
+
+
+//Enum
+enum CarType{
+    case Sedan
+    case Coupe
+    case Hatchback
+}
+//at the use site like in method parameters if the type is inferred then by writing just the . xcode will give enumration suggestions
 
 //classes and objects
 
